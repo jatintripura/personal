@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    background-color: #FDF0E9;
+}
+
+/* Header area css*/
+
+.header-area {
+    background-color: #1E1E1E;
+    padding: 15px 0;
+}
+
+.header-area .navbar {
+    padding: 0;
+}
+
+.header-area .nav-item {
+    margin: 0 35px;
+    align-items: center;
+}
+
+.header-area .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.header-area .nav-item a {
+    color: white;
+}
+
+.header-area .navbar-nav .nav-item:last-child a {
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 6%;
+}
+
+/*Hero area css*/
+.hero-area {
+    background-color: #1E1E1E;
+    height: calc(100vh-88px);
+    padding: 100px 0;
+}
+
+.hero-text h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+}
+
+.hero-text h2 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 25px 0;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.hero-text a {
+    display: inline-block;
+    background-color: #EF6D58;
+    color: white;
+    padding: 15px 25px;
+    font-weight: 800;
+    font-size: 14px;
+    font-weight: 14px;
+    text-transform: uppercase;
+    border-radius: 6%;
+    text-decoration: none;
+}
+
+/*Servise area-css*/
+.service-area {
+    background-color: #F3D1BF;
+    padding: 85px 0;
+}
+
+.service-text h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #EF6D58;
+
+}
+
+.service-text h2 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+
+    text-align: center;
+    letter-spacing: -1px;
+    color: #391400;
+
+}
+
+.single-text {
+    background: #FDF0E9;
+    border: 1px solid #F3D1BF;
+    border-radius: 0px 6px 6px 0px;
+    padding: 50px 50px;
+}
+
+.single-text h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #391400;
+}
+
+.single-text i {
+    border: 1px solid #EF6C57;
+    background-color: #EF6D58;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+
+.single-text p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+}
+/*contact area*/
+.contact-area{
+    padding: 85px 0;
+    background-color: #28293e;
+}
